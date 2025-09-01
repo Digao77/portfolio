@@ -1,0 +1,23 @@
+    <footer>
+        <h3>Rodapé</h3>
+        <ul>
+            <li><a href="index.html">home</a></li>
+            <li><a
+                    href="https://www.linkedin.com/in/rodrigo-de-oliveira-barros-b797b5353?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BeprvEY3KQc6cC6v6c5ADIg%3D%3D">LinkedIn</a>
+            </li>
+            <li><a href="https://www.facebook.com/profile.php?id=100007610387366">Facebook</a></li>
+            <li><a href="https://www.instagram.com/_digao_77?igsh=MTE1azhlc3Rzb3k1MQ==">Instagram</a></li>
+        </ul>
+    </footer>
+
+
+
+    css
+
+    footer {
+    position: absolute ;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 10px;
+}

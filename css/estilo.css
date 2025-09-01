@@ -1,0 +1,61 @@
+body {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+header {
+    background-color: rgb(50, 83, 173);
+}
+
+main {
+    padding: 2% 2% 2% 2%
+}
+
+.foto {
+    background-color: rgb(50, 83, 173);
+    padding: 10px 0 10px 5px;
+    display: block;
+}
+
+.titulo-cabeçalho {
+    background-color: rgb(50, 83, 173);
+    padding: 10px 0 10px 5px;
+    display: block;
+}
+
+nav ul {
+    background-color: rgba(50, 83, 173, 0.6);
+    overflow: hidden;
+    text-align: center;
+    height: 30px;
+    border-radius: 5px;
+    padding: 10px 0px 0px 10px
+}
+
+nav li {
+    list-style-type: none;
+    background-color: rgba(60, 75, 120, 0.6);
+    width: 10%;
+    min-width: 100px;
+    float: left;
+    border-radius: 5px;
+    margin: 0px 0px 0px 5px;
+}
+
+nav a {
+    text-decoration: none;
+    color: aliceblue;
+    display: block;
+}
+
+nav a:hover {
+    color: rgb(0, 40, 250);
+    background-color: rgb(110, 140, 220);
+    border-radius: 5px;
+}
+
+table, th, td {
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
