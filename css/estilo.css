@@ -9,7 +9,10 @@ header {
 }
 
 main {
-    padding: 2% 2% 2% 2%
+    /*padding: 2% 2% 2% 2%;*/
+   
+    height: 500px;
+
 }
 
 .foto {
@@ -58,4 +61,16 @@ nav a:hover {
 table, th, td {
     border: 1px solid #000;
     border-collapse: collapse;
+}
+
+.div-tab{
+    text-align: center;
+}
+
+footer {
+    /*position: absolute ;
+    bottom: 0px;
+    left: 0px;*/
+    width: 100%;
+    padding: 10px;
 }
