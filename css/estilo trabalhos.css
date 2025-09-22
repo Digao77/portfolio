@@ -2,6 +2,7 @@ body {
     padding: 0;
     margin: 0;
     text-align: center;
+    background-color: rgb(150, 175, 230);
 }
 
 header {
@@ -9,16 +10,10 @@ header {
 }
 
 main {
-    /*padding: 2% 2% 2% 2%;*/
-   
-    height: 500px;
-
+    padding: 2% 2% 2% 2%;
 }
-
-.foto {
-    background-color: rgb(50, 83, 173);
-    padding: 10px 0 10px 5px;
-    display: block;
+main h1 {
+    text-align: center;
 }
 
 .titulo-cabeçalho {
@@ -63,28 +58,6 @@ table, th, td {
     border-collapse: collapse;
 }
 
-<<<<<<< HEAD
-form {
-  width: 400px;           
-  margin: 20px auto;      
-  padding: 20px;
-  border: 1px;
-  border-radius: 8px;
-}
-
-form label,
-form input,
-form button {
-  display: block;         
-  width: 100%;            
-  margin-bottom: 10px;    
-}
-
-form input, form button {
-  padding: 8px;
-  font-size: 14px;
-}
-
 footer {
 background-color: rgb(50, 83, 173);
 padding: 10px 0 10px 5px;
@@ -92,29 +65,17 @@ display: block;
 }
 
 .trabalho {
-display: grid;
-grid-template-columns: 1fr 1fr;
+display:block;
+grid-template-columns: 1fr;
 gap: 15px;
-max-width: 1000px;
+max-width: 60%;
 margin: 0 auto;
 }
 .trabalho img{
-    width: 100%;
+    width: 70%;
     border-radius: 8px;
     border: 1px;
+    
 }
 
 
-=======
-.div-tab{
-    text-align: center;
-}
-
-footer {
-    /*position: absolute ;
-    bottom: 0px;
-    left: 0px;*/
-    width: 100%;
-    padding: 10px;
-}
->>>>>>> 811fa06496870bce7f7804b807471edafcc913d2
